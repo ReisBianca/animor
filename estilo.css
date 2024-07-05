@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*Home & Estilo padrão*/
+#topo {
+    border: 2px outset #f88800;
+    position: fixed;
+    width: 100%;
+    height: 20%;
+    background-color: white;   
+}
+
+#menu {
+    float: left;
+    padding-top: 17px;
+    padding-left: 20px;
+}
+
+#titulo {
+    display: block;
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 2.5em;
+    color:#464414;
+}
+
+#titulo-1-2 {
+    color: #f88800;
+}
+
+#emojis {
+    float: right;
+    font-size: 1.7em;
+    padding-right: 100px;
+}
+
+.item-menu {
+    display: inline;
+}
+
+.link-menu {
+    font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+    font-size: 0.8em;
+    padding-bottom: 5px;
+    margin-right: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #f88800;
+}
+
+.link-menu:hover {
+    border-bottom: 2px outset #f88800;
+}
+
+#conteudo {
+    float: left;
+    min-height: 92%;
+    width: 100%;
+    background-color: rgb(253, 248, 243);
+}
+
+#area-principal {
+    width: 100%;
+    height: 100%;
+    margin-top: 200px;
+}
+
+.titulo-area-principal {
+    font-size: 1.2em;
+    padding-top: 10px;
+    color: #f88800;
+    background-color: rgb(253, 248, 243);
+}
+
+.publicado-em {
+    font-size: 0.8em;
+    background-color: rgb(253, 248, 243);
+    padding-top: 2px;
+    padding-bottom: 10px;
+}
+
+.area-foto {
+    float: left;
+    width: 425px;
+    height: 400px;
+    margin-left: 25px;
+    margin-bottom: 60px;
+}
+
+#area-lateral {
+    float: left;
+    height: 430px;
+    width: 170px;
+    border-radius: 5px;
+    margin-left: 50px;
+    background-color: white;
+    text-align: center;
+    border: 2px outset #f88800;
+}
+
+#titulo-area-lateral {
+    display: inline-block;
+    border-bottom: 2px outset #f88800;
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    padding-bottom: 7px;
+    color: #f88800;
+}
+
+#txt-area-lateral {
+    height: 404px;
+}
+
+.txt-lateral {
+    display: inline-block;
+    padding-top: 8px;
+    font-size: 0.8em;
+    color: #464414;
+}
+
+#btn-cadastre-se {
+    height: 26px;
+}
+
+#cadastre-se {
+    display: inline-block;
+    width: 160px;
+    font-size: 0.9em;
+    padding: 4.6px;
+    background-color: #f88800;
+    text-decoration: none;
+    color: rgb(255, 248, 248);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+#cadastre-se:hover {
+    background-color: #e37d00;
+}
+
+.foto {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 425px;
+    height: 305px;
+
+}
+
+.veja-mais {
+    float: right;
+    margin-top: 5px;
+    padding: 8.5px;
+    font-size: 0.8em;
+    border-radius: 15px;
+    background-color: #f88800;
+    text-decoration: none;
+    color: white;
+}
+
+.veja-mais:hover {
+    background-color: #e37d00;
+}
+
+#rodape {
+    float: left;
+    min-height: 8%;
+    width: 100%;
+    background-color: #f88800;
+    text-align: center;
+}
+
+#txt-rodape {
+    margin-top: 20px;
+    color: white;
+    font-size: 0.9em;
+}
+
+/*Quem somos*/
+.quem-somos-principal {
+    display: inline-block;
+    padding: 30px;
+    margin-left: 15%;
+    margin-bottom: 50px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px outset #f88800;
+    width: 70%;
+}
+
+.titulo-quem-somos {
+    display: inline-block;
+    text-align: center;
+    color: #f88800;
+    border-bottom: 2px outset #f88800;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.txt-quem-somos {
+    text-align: justify;
+    padding-top: 10px;
+}
+
+/*Contato*/
+#form {
+    float: left;
+    margin-left: 15%;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px outset #f88800;
+    width: 70%;
+    margin-bottom: 150px;
+}
+
+.item-form {
+    font-size: 1em;
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.item-form:focus {
+    outline: 0;
+    border: 2px outset #f88800;
+}
+
+#titulo-form {
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #f88800;
+}
+ 
+.input-form {
+    padding-left: 10px;
+    height: 30px;
+    margin-bottom: 22px;
+}
+
+#select-form {
+    padding-left: 10px;
+    margin-bottom: 22px;
+    height: 30px;
+    width: 81.2%;
+}
+
+#textarea-form {
+    padding: 5px;
+    font-size: 1.2em;
+    min-width: 80%;
+    max-width: 80%;
+    min-height: 150px;
+    max-height: 150px;
+}
+
+#enviar-form {
+    font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+    font-weight: bold;
+    background-color: #f88800;
+    color: white;
+    border: none;
+    margin-top: 22px;
+    margin-bottom: 32px;
+    width: 81.2%;
+    margin-left: 10%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#enviar-form:hover {
+    background-color: #e37d00;
+}
+
+#rodape-contato {
+    float: left;
+    min-height: 8%;
+    width: 100%;
+    background-color: #f88800;
+}
+
+#txt-rodape-contato {
+    margin-top: 20px;
+    margin-left: 82%;
+    color: white;
+    font-size: 0.9em;
+}
